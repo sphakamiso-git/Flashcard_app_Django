@@ -25,27 +25,29 @@
         --preformatted: #444;
     }
 
-    article{
+    article {
         background-color: var(--marked);
         border: 1px solid var(--border);
         border-radius: 5px;
-        padding:1em;
+        padding: 1em;
         margin: 1em 0;
     }
 
-    h2{
+    h2 {
         text-align: center;
     }
 
-    h2, h4{
-        margin-top:0;
+    h2, h4 {
+        margin-top: 0;
     }
-    hr{
+
+    hr {
         background: var(--accent);
         border-color: var(--accent);
     }
 
-    button, a[role="button"]{
+    button,
+    a[role="button"] {
         color: white;
         text-decoration: none;
     }
@@ -53,14 +55,15 @@
     input, select, textarea {
         width: 100%;
     }
-
 </style>
+
 
 <!--  -->
 
 <body>
     <header>
         <h1>Flashcards App</h1>
+        {% include 'cards/navigation.html' %}
     </header>
     <main>
         {% block content %}

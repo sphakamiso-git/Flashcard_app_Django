@@ -1,3 +1,3 @@
 # Flashcard_app_Django
-![alt text]()
-![alt text](e-commerce.png)
+![alt text](flashcard_app.png)
+
